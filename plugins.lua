@@ -30,27 +30,7 @@ local plugins = {
 
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = {
-      ensure_installed = {
-        -- defaults 
-        "vim",
-        "lua",
-
-        -- web dev 
-        "html",
-        "css",
-        "javascript",
-        "typescript",
-        "json",
-
-       -- low level
-        "c",
-        "go",
-        "gomod",
-        "gosum",
-        "rust",
-      },
-    },
+    opts = overrides.treesitter,
   },
 
   {
