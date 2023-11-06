@@ -1,3 +1,5 @@
-# Example_config
+# aWindsweptEmus NvChad custom configuration
 
-This can be used as an example custom config for NvChad. Do check the https://github.com/NvChad/nvcommunity
+This is custom configuration for NvChad that adds formatters and linters for commonly used languages. Install with 
+'''git clone https://github.com/aWindsweptEmu/nvchad-config ~/.config/nvim/lua/custom --depth 1'''
+
