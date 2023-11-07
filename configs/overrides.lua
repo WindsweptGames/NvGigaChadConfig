@@ -55,6 +55,8 @@ M.mason = {
     -- go stuff
     "goimports",
     "gopls",
+    -- rust
+    "rust-analyzer",
     -- python
     "black",
     -- docker
