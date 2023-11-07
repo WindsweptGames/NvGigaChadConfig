@@ -1,6 +1,6 @@
-# aWindsweptEmu's NvChad custom configuration
+# NvGigaChad Configuration
 
-This is custom configuration for NvChad that set's theme and adds formatters and linters for commonly used languages. 
+This is custom configuration for NvChad that sets the theme and adds formatters, linters, and language servers for commonly used languages. 
 
-Install with ```git clone https://github.com/aWindsweptEmu/nvchad-config ~/.config/nvim/lua/custom --depth 1```
+Install with ```git clone https://github.com/aWindsweptEmu/NvGigaChad-Config ~/.config/nvim/lua/custom --depth 1```
 
