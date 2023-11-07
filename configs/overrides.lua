@@ -59,6 +59,7 @@ M.mason = {
     "rust-analyzer",
     -- python
     "black",
+    "jedi-language-server",
     -- docker
     "hadolint",
     "dockerfile-language-server"
