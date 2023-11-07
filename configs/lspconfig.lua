@@ -10,7 +10,7 @@ local servers = {
   "tsserver",
   "clangd",
   "gopls",
-  "rls",
+  "rust_analyzer",
   "tailwindcss",
   "yamlls",
   "dockerls",
