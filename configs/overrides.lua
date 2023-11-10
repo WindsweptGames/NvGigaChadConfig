@@ -12,18 +12,26 @@ M.treesitter = {
     "javascript",
     "typescript",
     "json",
-    -- low level
+    -- the good stuff
     "c",
     "go",
     "gomod",
     "gosum",
     "rust",
+    -- fun stuff
+    "ocaml",
+    "zig",
     -- scripting
     "python",
     -- utility
     "dockerfile",
     "yaml",
     "toml",
+    "make",
+    "cmake",
+    -- just the worst
+    "c_sharp",
+    "java",
   },
   indent = {
     enable = true,
