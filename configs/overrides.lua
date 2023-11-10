@@ -29,6 +29,7 @@ M.treesitter = {
     "toml",
     "make",
     "cmake",
+    "terraform",
     -- just the worst
     "c_sharp",
     "java",
@@ -70,7 +71,8 @@ M.mason = {
     "jedi-language-server",
     -- docker
     "hadolint",
-    "dockerfile-language-server"
+    "dockerfile-language-server",
+    "terraform-ls",
   },
 }
 
