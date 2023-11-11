@@ -66,6 +66,8 @@ M.mason = {
     "gopls",
     -- rust
     "rust-analyzer",
+    -- zig
+    "zls",
     -- python
     "black",
     "jedi-language-server",
