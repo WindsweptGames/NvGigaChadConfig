@@ -47,6 +47,14 @@ local plugins = {
     end,
   },
 
+  {
+    "github/copilot.vim",
+    lazy = false,
+    config = function()
+      vim.g.copilot_assume_mapped = true
+    end,
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
