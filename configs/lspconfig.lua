@@ -18,6 +18,7 @@ local servers = {
   "jedi_language_server",
   "terraformls",
   "zls",
+  "omnisharp",
 }
 
 for _, lsp in ipairs(servers) do
