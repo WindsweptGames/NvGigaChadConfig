@@ -13,18 +13,27 @@ M.treesitter = {
     "typescript",
     "json",
     "svelte",
-    -- low level
+    -- the good stuff
     "c",
     "go",
     "gomod",
     "gosum",
     "rust",
+    -- fun stuff
+    "ocaml",
+    "zig",
     -- scripting
     "python",
     -- utility
     "dockerfile",
     "yaml",
     "toml",
+    "make",
+    "cmake",
+    "terraform",
+    -- just the worst
+    "c_sharp",
+    "java",
   },
   indent = {
     enable = true,
@@ -59,12 +68,17 @@ M.mason = {
     "gopls",
     -- rust
     "rust-analyzer",
+    -- zig
+    "zls",
     -- python
     "black",
     "jedi-language-server",
     -- docker
     "hadolint",
-    "dockerfile-language-server"
+    "dockerfile-language-server",
+    "terraform-ls",
+    -- dotnet
+    "omnisharp",
   },
 }
 

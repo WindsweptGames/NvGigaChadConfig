@@ -17,6 +17,9 @@ local servers = {
   "bashls",
   "jedi_language_server",
   "svelte",
+  "terraformls",
+  "zls",
+  "omnisharp",
 }
 
 for _, lsp in ipairs(servers) do
