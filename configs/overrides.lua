@@ -12,6 +12,7 @@ M.treesitter = {
     "javascript",
     "typescript",
     "json",
+    "svelte",
     -- low level
     "c",
     "go",
@@ -46,6 +47,7 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "tailwindcss-language-server",
+    "svelte-language-server",
     "yaml-language-server",
     "deno",
     "prettier",

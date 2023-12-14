@@ -16,6 +16,7 @@ local servers = {
   "dockerls",
   "bashls",
   "jedi_language_server",
+  "svelte",
 }
 
 for _, lsp in ipairs(servers) do
