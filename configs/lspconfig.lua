@@ -20,6 +20,7 @@ local servers = {
   "terraformls",
   "zls",
   "omnisharp",
+  "graphql",
 }
 
 for _, lsp in ipairs(servers) do

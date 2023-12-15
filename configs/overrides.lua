@@ -31,6 +31,7 @@ M.treesitter = {
     "make",
     "cmake",
     "terraform",
+    "graphql",
     -- just the worst
     "c_sharp",
     "java",
@@ -60,6 +61,7 @@ M.mason = {
     "yaml-language-server",
     "deno",
     "prettier",
+    "graphql-language-service-cli",
     -- c/cpp stuff
     "clangd",
     "clang-format",
