@@ -19,14 +19,16 @@ M.copilot = {
 				vim.fn.feedkeys(vim.fn["copilot#Accept"](), "")
 			end,
 			"Copilot Accept",
-			{ replace_keycodes = true, nowait = true, silent = true, expr = true, noremap = true },
+			{ nowait = true, silent = true, expr = true, noremap = true },
 		},
 	},
 }
 
 M.trouble = {
-  ["<leader>tr"] = {"<cmd>TroubleToggle document_diagnostics<CR>", "Trouble Document Diagnostics"},
-  ["<leader>tw"] = {"<cmd>TroubleToggle workspace_diagnostics<CR>", "Trouble Workspace Diagnostics"},
+	t = {
+		["<leader>tr"] = { "<cmd>TroubleToggle document_diagnostics<CR>", "Trouble Document Diagnostics" },
+		["<leader>tw"] = { "<cmd>TroubleToggle workspace_diagnostics<CR>", "Trouble Workspace Diagnostics" },
+	},
 }
 
 return M
