@@ -25,14 +25,8 @@ M.copilot = {
 }
 
 M.trouble = {
-	o = {
-		["<leader>tr"] = {
-			function()
-				vim.cmd('Trouble document_diagnostics')
-			end,
-			"Trouble Document Diagnostics",
-		},
-	},
+  ["<leader>tr"] = {"<cmd>TroubleToggle document_diagnostics<CR>", "Trouble Document Diagnostics"},
+  ["<leader>tw"] = {"<cmd>TroubleToggle workspace_diagnostics<CR>", "Trouble Workspace Diagnostics"},
 }
 
 return M
