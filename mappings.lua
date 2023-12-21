@@ -26,7 +26,7 @@ M.copilot = {
 
 M.trouble = {
 	o = {
-		["<leader>+tr"] = {
+		["<leader>tr"] = {
 			function()
 				vim.cmd('Trouble document_diagnostics')
 			end,
