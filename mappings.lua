@@ -24,4 +24,15 @@ M.copilot = {
 	},
 }
 
+M.trouble = {
+	o = {
+		["<leader>+tr"] = {
+			function()
+				vim.cmd('Trouble document_diagnostics')
+			end,
+			"Trouble Document Diagnostics",
+		},
+	},
+}
+
 return M
