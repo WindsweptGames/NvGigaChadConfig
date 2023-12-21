@@ -53,7 +53,6 @@ local plugins = {
 		config = function()
 			vim.g.copilot_assume_mapped = true
       vim.g.copilot_no_tab_map = true;
-      vim.g.copilot_tab_fallback = "";
       -- remapping copilot accept action to different key. see custom/lua/mappings
 		end,
 	},
