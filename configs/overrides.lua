@@ -77,6 +77,7 @@ M.mason = {
     "hadolint",
     "dockerfile-language-server",
     "terraform-ls",
+    "helm-ls",
     -- dotnet
     "omnisharp",
   },
